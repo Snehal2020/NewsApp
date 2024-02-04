@@ -8,7 +8,8 @@ import PropTypes from 'prop-types'
 import { Routes,Route, BrowserRouter } from 'react-router-dom'
 
 export default function App(){
-   let apikey=process.env.REACT_APP_NEWS_API
+  //  let apikey=process.env.REACT_APP_NEWS_API
+   let apikey="52d575652ad946c898d00a9c4aa317c9"
     return (
       <div>
           <Navbar ></Navbar>
